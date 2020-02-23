@@ -6,7 +6,6 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class ByteFileComparator {
-    private final static int BUFFER_SIZE = 1024;
     private final static int BUFFER_SIZE = 2048;
     private char[] buffer1 = new char[BUFFER_SIZE];
     private char[] buffer2 = new char[BUFFER_SIZE];
