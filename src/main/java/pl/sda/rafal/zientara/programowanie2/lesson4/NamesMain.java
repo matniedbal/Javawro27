@@ -8,7 +8,7 @@ public class NamesMain {
         System.out.println(new File("").getAbsolutePath());
         String[] maleNames = getNamesFromFile("maleNames.txt");
         String[] femaleNames = getNamesFromFile("femaleNames.txt");
-
+//lll
 //        Circle.class.getSimpleName()
         String report = getResultReport(maleNames, femaleNames);
         saveReportToFile(report);
