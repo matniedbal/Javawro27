@@ -14,7 +14,7 @@ public class ByteFileComparator {
     private FileReader reader1;
     private FileReader reader2;
 
-    long startTime;
+    private long startTime;
 
     public boolean compareByBytes(File png, File possibleDuplicate) {
         try {
