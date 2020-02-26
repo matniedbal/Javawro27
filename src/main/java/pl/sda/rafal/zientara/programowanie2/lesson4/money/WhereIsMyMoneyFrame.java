@@ -70,7 +70,7 @@ public class WhereIsMyMoneyFrame implements MoneyContract.View{
 
     private  JList result (){
         result = new JList();
-        result.setBounds(50,275,500,250);
+        result.setBounds (50,275,500,250);
         return result;
     }
 
